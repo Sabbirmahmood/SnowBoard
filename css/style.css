@@ -1,0 +1,351 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Catamaran', sans-serif;
+font-family: 'Mulish', sans-serif;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	height: auto;
+}
+ul li{
+	list-style: none;
+}
+h1{
+	font-family: 'Catamaran', sans-serif;
+}
+p{
+	font-family: 'Mulish', sans-serif;
+}
+/*=============
+	Header CSS
+==============*/
+
+header{
+	background: #396495;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0 255 231 / 70%);
+    font-size: 25px;
+    font-weight: 700;
+    transition: 1s ease-in-out;
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(45deg, black, transparent);
+    z-index: 1;
+}
+
+/*=============
+	Hero CSS
+==============*/
+
+.hero{
+	background: url(../img/hero-back.png) no-repeat center top;
+	background-size: cover;
+	position: relative;
+}
+.hero h1{
+	text-align: center;
+    margin-top: 45px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #80a8c8;
+}
+.hero h2{
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 230px;
+    color: #64adcd;
+    font-weight: 900;
+}
+.hero p{
+	color: #fff;
+    font-size: 18px;
+    width: 78%;
+    padding-top: 120px;
+}
+.btn-book{
+	position: relative;
+	color: #15f4ee;
+    background: rgba(0, 0, 0, .7);
+    text-transform: uppercase;
+    margin: 24px auto;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 4px solid #15f4ee;
+    cursor: pointer;
+    transition: 3s;
+    margin-bottom: 80%;
+}
+.btn-submit:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset;
+}
+
+/*=============
+	Offer CSS
+==============*/
+.offer{
+	padding: 100px 0;
+	background: gray;
+	color: #fff;
+}
+.offer h1{
+	text-transform: uppercase;
+    font-weight: 900;
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+.offer p{
+	font-size: 18px;
+    font-weight: 100;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 35px;
+    padding-bottom: 80px;
+}
+.offer h2{
+	text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.offer h3{
+	text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+}
+.item{
+	border: 1px solid #e6dddd;
+	padding: 25px 0;
+	margin: 10px 35px;
+	background: linear-gradient(235deg,#d0d6ca,#272e48,#70ddea);
+	box-shadow: 0px 0px 30px #fff;
+}
+.item p{
+	padding: 30px 0 5px;
+    font-size: 18px;
+}
+.btn-from{
+	position: relative;
+	color: #15f4ee;
+    background: rgba(0, 0, 0, .7);
+    text-transform: uppercase;
+    margin: 24px auto;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 4px solid #15f4ee;
+    cursor: pointer;
+    transition: 3s;
+}
+.btn-submit:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset,
+                0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee inset;
+}
+
+/*=============
+	Gallery CSS
+==============*/
+.gallery{
+	padding: 100px 0;
+}
+.no-padding{
+    padding: 0;
+}
+.gallery h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+/*=============
+	Crew CSS
+==============*/
+.crew{
+	padding: 100px 0;
+	background: oldlace;
+}
+.crew h1{
+	text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    padding-bottom: 90px;
+}
+.crew h2{
+	padding: 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+}
+.member{
+	padding: 30px 0;
+    border: 1px solid #fff;
+    box-shadow: 0 0 20px #a09b9b;
+    background: ghostwhite;
+}
+.member p{
+	font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px 0 5px;
+}
+
+/*=============
+	About CSS
+==============*/
+.about{
+	background: url(../img/about.png) no-repeat center top;
+	background-size: cover;
+}
+.about h1{
+	text-transform: uppercase;
+	font-size: 60px;
+    padding: 190px 0 10px;
+    font-weight: 900;
+}
+.about h2{
+	text-transform: uppercase;
+	font-size: 60px;
+    padding: 15px 0 30px;
+    font-weight: 900;
+}
+.count{
+	text-align: center;
+	padding: 90px 0 114px;
+}
+.about h3{
+	text-transform: uppercase;
+	color: #ff660d;
+	font-size: 40px;
+    font-weight: 800;
+}
+.about h4{
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+.about p{
+
+}
+/*=============
+	Testimonials CSS
+==============*/
+.test{
+	padding: 100px 0;
+	background: linear-gradient(90deg,#21cce0,#dcdee6,#21cce0);
+}
+.test h1{
+	text-transform: uppercase;
+    font-weight: 900;
+    font-size: 60px;
+    padding-bottom: 50px;
+}
+.test h2{
+	text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 25px 0 15px;
+}
+.test p{
+	font-size: 14px;
+}
+.owl-carousel .owl-item img {
+    width: 30%;
+    margin: 0 auto;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ff660d;
+}
+/*=============
+	Footer CSS
+==============*/
+footer{
+	padding: 30px 0 0;
+	background: #2f2f2f;
+}
+footer h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 50px;
+	color: #fff;
+	padding: 30px 0;
+}
+footer p{
+	color: #fff;
+}
+footer a .fa{
+	font-size: 25px;
+    color: #ff690f;
+}
+.item3{
+    padding: 10px 0;
+}
+.social-item{
+	font-size: 50px;
+}
+.social-item ul li{
+	list-style: none;
+	display: inline;
+}
+.social-item ul li a{
+	color: #ff690f;
+    padding: 15px;
+}
+.social-item ul li .fa:hover{
+    color: #a09393;
+    transform: rotate(360deg);
+    transition: 0.3s ease-in-out;
+}
+footer iframe{
+	width: 130%;
+	height: 450px;
+}
+
+/*Media Query For Mobile*/
+
+@media ( min-width: 320px ) and ( max-width: 576px ){
+    .navbar-light .navbar-nav .nav-link { text-align: right; }
+    .navbar-light .navbar-toggler { background: #fff }
+    .hero { text-align: center; }
+    .hero h1 { font-size: 22px; }
+    .hero h2 { font-size: 60px; }
+    .hero p { width: 100%; margin: 30px 0 20px; padding: 0; }
+    .btn-book { margin: 30px 0; }
+    .offer { padding: 30px 0; }
+    .offer h1 { font-size: 25px; padding: 0 0 12px; }
+    .offer p { width: 100%; font-size: 10px; padding: 0 0px 30px; line-height: 20px; }
+    .gallery h1 { font-size: 30px; }
+    .crew { padding: 30px 0; }
+    .crew h1 { font-size: 30px; padding: 0 0; }
+    .member { margin: 30px 0; }
+    .about { padding: 30px 0; text-align: center; }
+    .about h1 { padding: 0; font-size: 30px; }
+    .about h2 { font-size: 32px; }
+    .about p { font-size: 13px; }
+    .count { padding: 20px 0; }
+    .test { padding: 30px 0; }
+    .test h1 { font-size: 30px; }
+    .test h2 { font-size: 20px; }
+    footer h1 { text-align: center; font-size: 30px; }
+    .item3 { text-align: center; }
+    .social-item { text-align: center; }
+    .social-item ul { padding: 0; }
+    footer iframe { width: 375px; height: 250px; }
+}
